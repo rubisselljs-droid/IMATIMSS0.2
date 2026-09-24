@@ -1,7 +1,8 @@
-:root {
-    --primary-color: #00ff8c;
-  }
-  
-  h1{
-    color: cadetblue;
-  }
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #006341;
+  --color-secondary: #9f7a42;
+  --color-tertiary: #134e48;
+  --color-neutral: #f4f6f5;
+}
